@@ -1,4 +1,6 @@
+
 # Option 1
+
 print("Welcome to Python Pizza Deliveries!")
 size = input("What size pizza do you want?\nS:$15, M:$20, L:$25\nS, M or L: ")
 pepperoni = input("Do you want pepperoni on your pizza?\nS:$2, M/L:$3\nY or N: ")
@@ -30,6 +32,7 @@ if extra_cheese.lower() == "y" :
 print(f"Your final bill is : ${price}.\n")
 
 # Option 2
+
 print("Welcome to Python Pizza Deliveries!")
 size = input("What size pizza do you want?\nS:$15, M:$20, L:$25\nS, M or L: ")
 pepperoni = input("Do you want pepperoni on your pizza?\nS:$2, M/L:$3\nY or N: ")
