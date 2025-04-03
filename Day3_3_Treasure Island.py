@@ -1,4 +1,4 @@
-from Day3_3_Treasure_image import image
+from Day3_3_Image import image
 
 print(image)
 
