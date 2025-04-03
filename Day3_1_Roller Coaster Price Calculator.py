@@ -1,4 +1,6 @@
 
+# Roller Coaster Ticket Price 
+
 print("Welcome to roller coaster.")
 height = int(input("What is your height in cm?\n"))
 
@@ -17,6 +19,7 @@ if height > 150 :
         price += 12
     
     # Picture price
+    
     picture = input("Do you want to have a photo? It's $3. Y/N\n")
     if picture.lower() == "y" : 
         price += 3
