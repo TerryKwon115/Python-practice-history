@@ -1,4 +1,4 @@
-# Roller coaster price 
+# Roller Coaster Price Calculator
 
 print("Welcome to roller coaster.")
 height = int(input("What is your height in cm?\n"))
