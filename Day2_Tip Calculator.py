@@ -12,7 +12,6 @@ final_amount = round(bill_per_person, 2)
 
 print(f"Each person should pay : ${final_amount}")
 
-
 # In short
 
 amount_of_bill = round((bill + bill * (tip * 0.01)) / number_of_people , 2)
