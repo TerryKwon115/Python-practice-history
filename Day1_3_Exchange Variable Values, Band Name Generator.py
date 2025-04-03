@@ -1,4 +1,4 @@
-# Exchange variable values
+# Exchange Variable Values
 
 glass1 = "milk"
 glass2 = "juice"
