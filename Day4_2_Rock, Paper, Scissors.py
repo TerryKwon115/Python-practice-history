@@ -1,5 +1,5 @@
 import random
-from Day4_2_image import rock, paper, scissors
+from Day4_2_Image import rock, paper, scissors
 
 game_image = [rock, paper, scissors]
 
