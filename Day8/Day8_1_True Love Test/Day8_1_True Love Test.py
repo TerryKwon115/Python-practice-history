@@ -9,9 +9,6 @@ print(image)
 true = ["t","r","u","e"]  
 love = ["l","o","v","e"]
 
-first_name = input("Please enter the first name : ")
-second_name = input("\nPlease enter the second name : ")
-
 def calculate_love_score(first, second):
 
     total_list = []
@@ -34,28 +31,46 @@ def calculate_love_score(first, second):
         
     score = int(str(first_num) + str(second_num))
         
-    print("\n======================================================")
-    print(f"\nYour True Love score : {score}\n")
+    print(f"\n\n# Your True Love score : {score}\n")
 
     if score < 20:
-        print("Test Result : Are you sure about this relationship?\n")
+        print("# Test Result : Are you sure about this relationship?\n")
         
     elif score < 40:
-        print("Test Result : This screams friendship zone.\n") 
+        print("# Test Result : This screams friendship zone.\n") 
         
     elif score < 60:
-        print("Test Result : Something's really missing.\n")    
+        print("# Test Result : Something's really missing.\n")    
         
     elif score < 80:
-        print("Test Result : This is the best match?\n")    
+        print("# Test Result : This is the best match?\n")    
         
     elif score < 100:
-        print("Test Result : Stop kidding me.\n")      
+        print("# Test Result : Stop kidding me.\n")      
         
     elif score < 1010:
-        print("Test Result : I can't stand liars.\n")
+        print("# Test Result : I can't stand liars.\n")
         
     else: 
         print("Test Result : This is lame.\n")
 
-calculate_love_score(first = first_name, second = second_name)
+game = True
+while game:
+    
+    first_name = input("\nPlease enter the first name : ")
+    second_name = input("\nPlease enter the second name : ")
+
+    calculate_love_score(first = first_name, second = second_name)
+    
+    question = input("\n* Would you like to play again? Yes or No : ").lower()
+    
+    if question == "yes":
+        print("\n======================================================")
+        
+    elif question == "no":
+        print("\n< Thanks for using the True Love Test! Next time, surprise me with a new date! >")
+        game = False
+        
+    else:
+        print("\n< Incorrect input. Please try again. >")
+        game = False
