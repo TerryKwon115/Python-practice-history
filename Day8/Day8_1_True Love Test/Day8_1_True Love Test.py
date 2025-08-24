@@ -69,10 +69,9 @@ while game:
         print("\n======================================================")
         
     elif question == "no":
-        print("\n< Thanks for using the True Love Test! Next time, surprise me with a new date! >")
+        print("\n< Thanks for using the True Love Test! Next time, surprise me with a new date! >\n")
         game = False
         
     else:
-        print("\n< Incorrect input. Please try again. >")
+        print("\n< Incorrect input. Please try again. >\n")
         game = False
-
