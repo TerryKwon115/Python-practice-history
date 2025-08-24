@@ -55,6 +55,7 @@ def calculate_love_score(first, second):
         print("Test Result : This is lame.\n")
 
 game = True
+
 while game:
     
     first_name = input("\nPlease enter the first name : ")
@@ -74,3 +75,4 @@ while game:
     else:
         print("\n< Incorrect input. Please try again. >")
         game = False
+
