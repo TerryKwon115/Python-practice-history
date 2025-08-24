@@ -75,4 +75,3 @@ while game:
     else:
         print("\n< Incorrect input. Please try again. >")
         game = False
-
