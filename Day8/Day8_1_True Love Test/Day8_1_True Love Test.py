@@ -52,7 +52,7 @@ def calculate_love_score(first, second):
         print("# Test Result : I can't stand liars.\n")
         
     else: 
-        print("Test Result : This is lame.\n")
+        print("# Test Result : This is lame.\n")
 
 game = True
 
@@ -75,3 +75,4 @@ while game:
     else:
         print("\n< Incorrect input. Please try again. >")
         game = False
+
